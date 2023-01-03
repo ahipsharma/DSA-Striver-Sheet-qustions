@@ -28,6 +28,7 @@ class Solution {
         return dp[indx] = min(jump1, jump2);
     }
     
+    // Bottom Uo Approach
     int BottomUp(vector<int>& height, int indx){
         int n=height.size();
         vector<int> dp(indx,-1);
