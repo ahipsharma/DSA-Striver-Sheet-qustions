@@ -13,7 +13,7 @@ class Solution {
 public:
     bool isBalanced(TreeNode* root) {
         return balanced(root) != -1;
-    }xw
+    }
 
     int balanced(TreeNode* root) {
         if(root == NULL)
