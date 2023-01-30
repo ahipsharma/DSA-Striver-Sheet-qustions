@@ -5,6 +5,8 @@
         "string": "cpp",
         "vector": "cpp",
         "iosfwd": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "memory": "cpp",
+        "utility": "cpp"
     }
 }
