@@ -7,6 +7,8 @@
         "iosfwd": "cpp",
         "iterator": "cpp",
         "memory": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "__functional_03": "cpp",
+        "functional": "cpp"
     }
 }
