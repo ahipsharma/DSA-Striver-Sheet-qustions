@@ -26,3 +26,50 @@ public:
         return ans[k-1];
     }
 };
+
+// For GeeksforGeeks:
+// struct Node {
+//     int data;
+//     Node *left;
+//     Node *right;
+
+//     Node(int val) {
+//         data = val;
+//         left = right = NULL;
+//     }
+// };
+
+
+// class Solution {
+// public:
+//     int solve(Node*root,int &k){
+
+//         if(root==NULL)
+
+//         return -1;
+
+ 
+
+//         int left=solve(root->left,k);
+
+//         if(left!=-1)
+//             return left;
+//         k--;
+//         if(k==0) 
+//             return root->data;
+//         int right=solve(root->right,k);
+//         if(right!=-1)
+//             return right;
+
+//   }
+
+//     // Return the Kth smallest element in the given BST
+
+//     int KthSmallestElement(Node *root, int K) {
+
+//         // add code here.
+
+//         return solve(root,K);
+
+//     }
+// };
