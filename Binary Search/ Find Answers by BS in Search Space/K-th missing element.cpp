@@ -25,13 +25,16 @@ int main() {
     return 0;
 }
 
-int KthMissingElement(int a[], int n, int k){
-    vector<int> ans;
-    for(int i=1;i<n;i++){
-        if((a[i]-a[i-1])>1) {
-            for(int l=a[i-1]+1;l<a[i];l++) ans.push_back(l);
+class Solution{
+    public:
+    int KthMissingElement(int a[], int n, int k){
+        vector<int> ans;
+        for(int i=1;i<n;i++){
+            if((a[i]-a[i-1])>1) {
+                for(int l=a[i-1]+1;l<a[i];l++) ans.push_back(l);
+            }
         }
-    }
-    if(k>ans.size()) return -1;
-    return ans[k-1];
-}
+        if(k>ans.size()) return -1;
+        return ans[k-1];
+    } 
+};
