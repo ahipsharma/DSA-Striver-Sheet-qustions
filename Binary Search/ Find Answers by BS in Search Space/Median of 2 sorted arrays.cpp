@@ -67,7 +67,5 @@ class Solution{
         return (double)res[len / 2];
  
         return (double)(res[(len - 1) / 2] + res[len / 2]) / 2.0;
-        
-        // return median;
     }
 };
