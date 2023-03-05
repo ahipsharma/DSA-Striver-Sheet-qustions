@@ -6,7 +6,6 @@ using namespace std;
 
 class Solution{
   public:
-    /*You are required to complete this method */
     int atoi(string s) {
         int n = s.length();
         int ans=0;
